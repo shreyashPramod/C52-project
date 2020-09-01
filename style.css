@@ -34,5 +34,36 @@ body{
     margin: 25px;
     width:310px;
     font-family: fantasy;
-    
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+.origami:hover img{
+    transform:scale(1.2);
+}
+
+.origami{
+    position: relative;
+}
+
+.origami h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.origami:hover h3{
+opacity:1;
+}
+
+.origami:hover img{
+    opacity:0.33;
 }
